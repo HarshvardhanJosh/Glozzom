@@ -1,0 +1,116 @@
+body {
+  overflow-x: hidden;
+}
+
+/* navbar */
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 solid 3px;
+}
+/* end of navbar */
+
+/* Carousel */
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-img-1 {
+  background: url('../img/testimg.jfif');
+  background-size: cover;
+  background-position: center;
+}
+.carousel-img-2 {
+  background: url('../img/image2.jpg');
+  background-size: cover;
+}
+.carousel-img-3 {
+  background: url('../img/image3.jpg');
+  background-size: cover;
+}
+/* end of carousel */
+
+/*Home heading */
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+/* end of home heading */
+
+/* Video play -*/
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/media.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: white;
+}
+
+#video-play a {
+  color: white;
+}
+/* end of video play*/
+
+/*About Us Page */
+
+/*Page Header*/
+#page-header {
+  height: 200px;
+  background: url('../img/img1.jfif');
+  background-position: 0 -300px;
+  background-attachment: fixed;
+  color: white;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+.about-img {
+  margin-top: -75px;
+}
+
+/* end of page header*/
+
+/* FAQ */
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: white;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+/* end of faq */
+
+/* Footer */
+#main-footer {
+  background: #000;
+  color: white;
+}
+/* end of footer */
